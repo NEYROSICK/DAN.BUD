@@ -1,11 +1,4 @@
-.our-service-text{
-    width: 418px;
-    height: 90px;
-    font-size: 18px;
-    line-height: 1.6;
-    color: var(--clr-primary);
-    margin-bottom: 44px;
-}
+
 .our-tagline{
     display: flex;
     gap: 40px;
@@ -20,59 +13,69 @@
 }
 @media screen and (min-width:175px) {
     .our-service-list-div {
-            margin-top: 44px;
-        }
+        margin-top: 44px;
+    }
         
+    .our-service-text {
+        height: 90px;
+        font-size: 18px;
+        line-height: 1.6;
+        color: var(--clr-primary);
+        margin-bottom: 44px;
+    }
+
     .our-service-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 30px;
-            width: 418px;
-        }
-    
-        .our-service-item {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            gap: 6px;
-            flex-basis: calc((100% / 4) - 30px);
-            height: 133px;
-            background-color: var(--clr-background-secondary);
-        }
-    
-        .our-service-item:nth-child(2n) {
-            transform: translateY(35px);
-        }
-    
-        .our-service-div {
-            display: flex;
-        }
-    
-        .our-service-item-main-text {
-            font-weight: 700;
-            font-size: 42px;
-            line-height: 57px;
-        }
-    
-        .our-service-item-secondary-text {
-            font-weight: 600;
-            font-size: 11px;
-            line-height: 15px;
-            text-align: center;
-            width: 122px;
-            height: 30px;
-            color: var(--clr-primary-dark);
-        }
-    
-        .our-plus {
-            width: 13px;
-            height: 22px;
-            color: var(--clr-brand);
-        }
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        width: 418px;
+    }
+
+    .our-service-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        flex-basis: calc((100% / 4) - 30px);
+        height: 133px;
+        background-color: var(--clr-background-secondary);
+    }
+
+    .our-service-item:nth-child(2n) {
+        transform: translateY(35px);
+    }
+
+    .our-service-div {
+        display: flex;
+    }
+
+    .our-service-item-main-text {
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 57px;
+    }
+
+    .our-service-item-secondary-text {
+        font-weight: 600;
+        font-size: 11px;
+        line-height: 15px;
+        text-align: center;
+        width: 122px;
+        height: 30px;
+        color: var(--clr-primary-dark);
+    }
+
+    .our-plus {
+        width: 13px;
+        height: 22px;
+        color: var(--clr-brand);
+    }
 }
 @media screen and (min-width:480px) {
-    
+    .our-service-text{
+        width: 418px;
+    }
     .our-service-item{
         flex-basis:unset;
         width: 193px;
