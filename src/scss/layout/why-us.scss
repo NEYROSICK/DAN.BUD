@@ -1,11 +1,11 @@
-.service-tegline {
+.service-tagline {
   display: flex;
   gap: 60px;
   margin-bottom: 20px;
   margin-left: 30px;
   align-items: center;
 }
-.service-tegline::before {
+.service-tagline::before {
   content: "";
   width: 1px;
   height: 60px;
