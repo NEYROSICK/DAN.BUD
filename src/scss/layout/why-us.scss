@@ -1,8 +1,8 @@
-.our-tagline {
+.why-tagline {
   display: flex;
   gap: 40px;
 }
-.our-tagline::before {
+.why-tagline::before {
   content: "";
   margin-left: 30px;
   width: 1px;
@@ -11,11 +11,11 @@
   transform: rotate(90deg);
 }
 @media screen and (min-width: 175px) {
-  .our-service-list-div {
+  .why-us-list-div {
     margin-top: 44px;
   }
 
-  .our-service-text {
+  .why-us-text {
     height: 90px;
     font-size: 18px;
     line-height: 1.6;
@@ -23,13 +23,13 @@
     margin-bottom: 44px;
   }
 
-  .our-service-list {
+  .why-us-list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
   }
 
-  .our-service-item {
+  .why-us-item {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,17 +40,17 @@
     background-color: var(--clr-background-secondary);
   }
 
-  .our-service-div {
+  .why-us-div {
     display: flex;
   }
 
-  .our-service-item-main-text {
+  .why-us-item-main-text {
     font-weight: 700;
     font-size: 42px;
     line-height: 57px;
   }
 
-  .our-service-item-secondary-text {
+  .why-us-item-secondary-text {
     font-weight: 600;
     font-size: 11px;
     line-height: 15px;
@@ -60,50 +60,50 @@
     color: var(--clr-primary-dark);
   }
 
-  .our-plus {
+  .why-plus {
     width: 13px;
     height: 22px;
     color: var(--clr-brand);
   }
 }
 @media screen and (min-width: 336px) {
-  .our-service-item:nth-child(2n) {
+  .why-us-item:nth-child(2n) {
     transform: translateY(35px);
   }
-  .our-service-item {
+  .why-us-item {
     flex-basis: calc((100% / 4) - 30px);
   }
 }
 @media screen and (min-width: 480px) {
-  .our-service-text {
+  .why-us-text {
     width: 418px;
   }
-  .our-service-list {
+  .why-us-list {
     width: 418px;
   }
-  .our-service-item {
+  .why-us-item {
     flex-basis: unset;
     width: 193px;
     height: 133px;
   }
 }
 @media screen and (min-width: 768px) {
-  .our-service .tagline {
+  .why-us .tagline {
     margin-bottom: 0;
   }
-  .our-service .title {
+  .why-us .title {
     width: 420px;
   }
-  .our-service-list-div {
+  .why-us-list-div {
     display: flex;
     justify-content: end;
   }
 }
 @media screen and (min-width: 1200px) {
-  .our-service-list-div {
+  .why-us-list-div {
     margin-top: 0;
   }
-  .our-service-all {
+  .why-us-all {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
