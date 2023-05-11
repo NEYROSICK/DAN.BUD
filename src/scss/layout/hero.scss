@@ -1,0 +1,172 @@
+/* Hero section */
+
+.hero-section {
+  background-color: var(--clr-primary-dark);
+  background-image: url(../img/construction-business.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-container {
+  padding: 208px 0px 183px;
+}
+
+@media (min-width: 768px) {
+  .hero-container {
+    position: relative;
+    padding: 272px 0px 243px 236px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-container {
+    padding-left: 216px;
+    padding-bottom: 208px;
+  }
+}
+
+// @media (min-width: 768px) {
+//   .hero-container::before {
+//     content: "";
+//     position: absolute;
+//     top: 0;
+//     left: -100%;
+//     width: calc(100% + 116px);
+//     height: 101%;
+//     background-color: var(--clr-background-primary);
+//   }
+// }
+
+.hero-socials {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .hero-socials {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    position: absolute;
+    left: 62px;
+    bottom: 40px;
+    transform: rotate(-90deg);
+    transform-origin: left bottom;
+  }
+}
+
+.socials-link {
+  color: var(--clr-primary-dark);
+  text-decoration: none;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.37;
+  letter-spacing: 0.2em;
+  transition: color 0.3s ease;
+}
+
+.socials-link:hover,
+.socials-link:focus {
+  color: var(--clr-brand);
+}
+
+.hero-title {
+  color: var(--clr-primary-dark);
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 1.08;
+  letter-spacing: 0.05em;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 357px) {
+  .hero-title {
+    font-size: 48px;
+    line-height: 1.18;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hero-title {
+    font-size: 72px;
+  }
+}
+
+.hero-line-break::after {
+  content: "\a";
+  white-space: pre;
+}
+
+@media (min-width: 357px) {
+  .hero-line-break::after {
+    content: "";
+  }
+}
+
+.hero-text {
+  max-width: 486px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.67;
+  color: var(--clr-secondary);
+}
+
+@media (min-width: 1200px) {
+  .hero-text {
+    font-size: 18px;
+  }
+}
+
+/* Carousel */
+
+.carousel-controls {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .carousel-controls {
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+  }
+}
+
+.carousel-button {
+  position: relative;
+  padding: 8px 0;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  color: var(--clr-primary-inverted);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.carousel-button::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 60px;
+  bottom: 0;
+  background-color: currentColor;
+}
+
+.carousel-prev::after {
+  left: 0;
+}
+
+.carousel-next::after {
+  right: 0;
+}
+
+.carousel-button[disabled] {
+  color: var(--clr-secondary-transparent);
+  cursor: not-allowed;
+}
