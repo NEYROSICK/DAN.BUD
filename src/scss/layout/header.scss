@@ -35,7 +35,6 @@
   .header-nav {
     align-items: center;
     gap: 58px;
-    padding-left: 16px;
   }
 }
 
@@ -73,6 +72,7 @@
 @media (min-width: 768px) {
   .header-menu {
     display: flex;
+    flex-grow: 1;
     gap: 24px;
   }
 }
@@ -84,7 +84,7 @@
 }
 
 .header-link {
-  color: var(--clr-primary-dark);
+  color: var(--clr-primary-inverted);
   text-decoration: none;
   font-family: inherit;
   font-size: 12px;
@@ -100,55 +100,46 @@
   color: var(--clr-brand);
 }
 
-.header-contacts {
+.header-button {
   display: none;
 }
 
 @media (min-width: 768px) {
-  .header-contacts {
+  .header-button {
     display: flex;
-    flex-direction: column-reverse;
     align-items: center;
-    padding-top: 8px;
+    gap: 10px;
+    color: var(--clr-primary-inverted);
+    background-color: transparent;
+    border: 1px solid var(--clr-primary-inverted);
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 1.36;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 12px 20px;
+    height: 40px;
+    text-decoration: none;
+    inline-size: fit-content;
+    transition: background-color 0.3s ease, color 0.3s ease,
+      border-color 0.3s ease;
   }
 }
 
-@media (min-width: 1200px) {
-  .header-contacts {
-    flex-direction: row;
-    gap: 40px;
-    padding: 0;
-  }
-}
-
-.button-light {
-  display: block;
-  color: var(--clr-primary-inverted);
-  background-color: transparent;
-  border: 1px solid var(--clr-brand);
-  border-radius: 25px;
-  cursor: pointer;
-  font-size: 12px;
-  line-height: 1.36;
-  font-weight: 600;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-  text-align: center;
-  padding: 12px 20px;
-  height: 40px;
-  text-decoration: none;
-  inline-size: fit-content;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.button-light:hover,
-.button-light:focus {
+.header-button:hover,
+.header-button:focus {
   background-color: var(--clr-brand);
   color: var(--clr-primary-inverted);
+  border-color: var(--clr-brand);
 }
 
-.button-dark {
-  color: var(--clr-primary-dark);
+.header-button-icon {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
 }
 
 .header-burger {
