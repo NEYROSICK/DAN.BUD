@@ -21,6 +21,10 @@ footer {
     }
 }
 
+.logo:hover{
+    cursor: pointer;
+}
+
 .footer-logo {
     color: var( --clr-primary-inverted);
     font-weight: 700;
@@ -31,7 +35,7 @@ footer {
     margin-bottom: 40px;
 }
 
-.map{
+.footer-map{
     border-radius: 15px;
     width: 370px;
     height: 150px;
@@ -39,13 +43,13 @@ footer {
     }
 
     @media screen and (min-width:768px) {
-        .map {
+        .footer-map {
             height: 200px;
         }
     }
 
     @media screen and (min-width:1200px) {
-        .map {
+        .footer-map {
             width: 700px;
             height: 300px;
         }
@@ -117,6 +121,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    // height: 350px;
 
 }
 
@@ -169,7 +174,7 @@ footer {
     letter-spacing: 0.02em;
 }
 
-li {
+.footer-li {
     display: block;
 }
 
