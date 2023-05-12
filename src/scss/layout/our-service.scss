@@ -1,5 +1,4 @@
 // ==========================================MOBILE =====================================
-
 .service-tagline {
   display: flex;
   gap: 60px;
@@ -81,6 +80,9 @@
     margin-bottom: 64px;
   }
   .service-image {
+    display: block;
+    width: 100%;
+    height: auto;
     margin-bottom: 30px;
     max-width: 450px;
     max-height: 346px;
@@ -134,6 +136,9 @@
     flex-basis: calc((100% - 60px) / 3);
   }
   .service-image {
+    display: block;
+    width: 100%;
+    height: auto;
     margin-bottom: 30px;
     max-width: 370px;
     max-height: 346px;
