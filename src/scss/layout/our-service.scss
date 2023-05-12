@@ -129,9 +129,11 @@
   .service-list {
     display: flex;
     flex-direction: row;
+
     gap: 30px;
   }
   .service-item {
+    align-items: center;
     flex-basis: calc((100% - 60px) / 3);
   }
   .service-image {
