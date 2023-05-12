@@ -34,7 +34,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 1, 388;
+  line-height: 1.388;
   text-align: center;
   letter-spacing: 0.02em;
   color: #303030;
@@ -44,7 +44,7 @@
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1, 357;
+  line-height: 1.357;
   text-align: center;
   letter-spacing: 0.02em;
   color: #ff6c00;
@@ -91,7 +91,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 1, 388;
+    line-height: 1.388;
     text-align: center;
     letter-spacing: 0.02em;
     color: #303030;
@@ -101,7 +101,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1, 357;
+    line-height: 1.357;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ff6c00;
@@ -130,9 +130,12 @@
   }
   .service-list {
     display: flex;
+    flex-direction: row;
+
     gap: 30px;
   }
   .service-item {
+    align-items: center;
     flex-basis: calc((100% - 60px) / 3);
   }
   .service-image {
@@ -147,7 +150,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    line-height: 1, 388;
+    line-height: 1.388;
     text-align: center;
     letter-spacing: 0.02em;
     color: #303030;
@@ -157,7 +160,7 @@
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 1, 357;
+    line-height: 1.357;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ff6c00;
