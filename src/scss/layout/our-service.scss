@@ -27,6 +27,9 @@
     margin-bottom: 64px;
   }
   .service-image {
+    display: block;
+    width: 100%;
+    height: auto;
     margin-bottom: 30px;
     max-width: 418px;
     max-height: 346px;
@@ -49,6 +52,9 @@
     text-align: center;
     letter-spacing: 0.02em;
     color: #ff6c00;
+  }
+  .our-services {
+    padding-top: 84px;
   }
 }
 
@@ -82,6 +88,9 @@
     margin-bottom: 64px;
   }
   .service-image {
+    display: block;
+    width: 100%;
+    height: auto;
     margin-bottom: 30px;
     max-width: 450px;
     max-height: 346px;
@@ -105,6 +114,9 @@
     letter-spacing: 0.02em;
     color: #ff6c00;
     max-width: 418px;
+  }
+  .our-services {
+    padding-top: 100px;
   }
 }
 // ==========================================DESKTOP ====================================
@@ -135,6 +147,9 @@
     flex-basis: calc((100% - 60px) / 3);
   }
   .service-image {
+    display: block;
+    width: 100%;
+    height: auto;
     margin-bottom: 30px;
     max-width: 370px;
     max-height: 346px;
@@ -159,10 +174,10 @@
     color: #ff6c00;
     max-width: 418px;
   }
+  .our-services {
+    padding-top: 130px;
+  }
 }
 .service-text {
   align-items: center;
-}
-.service-section {
-  margin-top: 84px;
 }
