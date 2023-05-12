@@ -2,7 +2,11 @@
 
 .hero-section {
   background-color: var(--clr-primary-dark);
-  background-image: url(../img/construction-business.jpg);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.4),
+      rgba(46, 47, 66, 0.4)
+    ),
+    url(../img/construction-business.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -15,7 +19,7 @@
 @media (min-width: 768px) {
   .hero-container {
     position: relative;
-    padding: 272px 0px 243px 236px;
+    padding: 272px 0px 243px 0px;
   }
 }
 
@@ -38,41 +42,12 @@
 //   }
 // }
 
-.hero-socials {
-  display: none;
-}
-
-@media (min-width: 768px) {
-  .hero-socials {
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    position: absolute;
-    left: 62px;
-    bottom: 40px;
-    transform: rotate(-90deg);
-    transform-origin: left bottom;
-  }
-}
-
-.socials-link {
-  color: var(--clr-primary-dark);
-  text-decoration: none;
-  font-family: inherit;
-  font-weight: 600;
-  font-size: 11px;
-  line-height: 1.37;
-  letter-spacing: 0.2em;
-  transition: color 0.3s ease;
-}
-
-.socials-link:hover,
-.socials-link:focus {
-  color: var(--clr-brand);
+.hero-tagline {
+  color: var(--clr-primary-inverted);
 }
 
 .hero-title {
-  color: var(--clr-primary-dark);
+  color: var(--clr-primary-inverted);
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 60px;
@@ -110,7 +85,7 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 1.67;
-  color: var(--clr-secondary);
+  color: var(--clr-primary-inverted);
 }
 
 @media (min-width: 1200px) {
