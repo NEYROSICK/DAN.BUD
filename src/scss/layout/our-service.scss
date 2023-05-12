@@ -1,58 +1,54 @@
 // ==========================================MOBILE =====================================
-@media screen and (max-width: 767px) {
-  .service-tagline {
-    display: flex;
-    gap: 60px;
-    height: 15px;
-    margin-bottom: 20px;
-    margin-left: 30px;
-    align-items: center;
-  }
-  .service-tagline::before {
-    content: "";
-    width: 1px;
-    height: 60px;
-    background-color: var(--clr-primary-dark);
-    transform: rotate(90deg);
-  }
-  .service-title {
-    margin-bottom: 44px;
-  }
-  .service-list {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .service-item {
-    margin-bottom: 64px;
-  }
-  .service-image {
-    margin-bottom: 30px;
-    max-width: 418px;
-    max-height: 346px;
-  }
-  .subtitle-service {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1, 388;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #303030;
-    margin-bottom: 8px;
-  }
-  .descr-service {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1, 357;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color: #ff6c00;
-  }
-  .our-service {
-    padding-top: 84px;
-  }
+
+.service-tagline {
+  display: flex;
+  gap: 60px;
+  height: 15px;
+  margin-bottom: 20px;
+  margin-left: 30px;
+  align-items: center;
+}
+.service-tagline::before {
+  content: "";
+  width: 1px;
+  height: 60px;
+  background-color: var(--clr-primary-dark);
+  transform: rotate(90deg);
+}
+.service-title {
+  margin-bottom: 44px;
+}
+.service-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.service-item {
+  margin-bottom: 64px;
+}
+.service-image {
+  margin-bottom: 30px;
+  max-width: 418px;
+  max-height: 346px;
+}
+.subtitle-service {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1, 388;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #303030;
+  margin-bottom: 8px;
+}
+.descr-service {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1, 357;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ff6c00;
 }
 
 // ==========================================TABLET =====================================
@@ -109,9 +105,6 @@
     color: #ff6c00;
     max-width: 418px;
   }
-  .our-service {
-    padding-top: 100px;
-  }
 }
 // ==========================================DESKTOP ====================================
 @media screen and (min-width: 1200px) {
@@ -164,9 +157,6 @@
     letter-spacing: 0.02em;
     color: #ff6c00;
     max-width: 418px;
-  }
-  .our-service {
-    padding-top: 130px;
   }
 }
 .service-text {
