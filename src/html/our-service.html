@@ -1,22 +1,79 @@
-<section>
+<section class="service-section">
   <div class="container service-container">
-    <p class="tagline service-tagline">для справжніх поціновувачів атмосфери</p>
-    <h2 class="title service-title">Наші майстри</h2>
+    <p class="tagline service-tagline">
+      dla prawdziwych koneserów designu i komfortu
+    </p>
+    <h2 class="title service-title">Nasze usługi</h2>
     <ul class="service-list">
       <li class="service-item">
-        <img src="../img/service1.jpg" alt="service1" class="service-image" />
-        <p class="subtitle-service">John Smith</p>
-        <p class="descr-service">Extreme Barber</p>
+        <picture>
+          <source
+            media="(max-width: 767px"
+            )
+            srcset="@img/service/service1-mobile.jpg"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="@img/service/service1-tablet.jpg"
+          />
+          <source />
+          <img
+            src="@img/service/service1-desk.jpeg"
+            alt="service1"
+            class="service-image"
+          />
+        </picture>
+        <div class="service-text">
+          <p class="subtitle-service">Remont mieszkań</p>
+          <p class="descr-service">
+            Wykonujemy naprawy o dowolnej złożoności od kosmetycznych po
+            kapitalne
+          </p>
+        </div>
       </li>
       <li class="service-item">
-        <img src="../img/service2.jpg" alt="service2" class="service-image" />
-        <p class="subtitle-service">Michele Doe</p>
-        <p class="descr-service">Extreme Barber</p>
+        <picture>
+          <source
+            media="(max-width: 767px)"
+            srcset="@img/service/service2-mobile.jpg"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="@img/service/service2-tablet.jpg"
+          />
+          <img
+            src="@img/service/service2-desk.jpg"
+            alt="service2"
+            class="service-image"
+          />
+        </picture>
+        <div class="service-text">
+          <p class="subtitle-service">Korporacyjna naprawa</p>
+          <p class="descr-service">Remont powierzchni handlowej i biurowej</p>
+        </div>
       </li>
       <li class="service-item">
-        <img src="../img/service3.jpg" alt="service3" class="service-image" />
-        <p class="subtitle-service">Alan Black</p>
-        <p class="descr-service">Extreme Barber</p>
+        <picture>
+          <source
+            media="(max-width: 767px)"
+            srcset="@img/service/service3-mobile.jpg"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="@img/service/service3-tablet.jpg"
+          />
+          <img
+            src="@img/service/service3-desk.jpg"
+            alt="service3"
+            class="service-image"
+          />
+        </picture>
+        <div class="service-text">
+          <p class="subtitle-service">Budowa domów prywatnych</p>
+          <p class="descr-service">
+            Wykonujemy budowę domów prywatnych i domków letniskowych
+          </p>
+        </div>
       </li>
     </ul>
   </div>
