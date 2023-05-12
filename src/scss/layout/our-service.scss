@@ -53,6 +53,9 @@
     letter-spacing: 0.02em;
     color: #ff6c00;
   }
+  .our-services {
+    padding-top: 84px;
+  }
 }
 
 // ==========================================TABLET =====================================
@@ -112,6 +115,9 @@
     color: #ff6c00;
     max-width: 418px;
   }
+  .our-services {
+    padding-top: 100px;
+  }
 }
 // ==========================================DESKTOP ====================================
 @media screen and (min-width: 1200px) {
@@ -168,10 +174,10 @@
     color: #ff6c00;
     max-width: 418px;
   }
+  .our-services {
+    padding-top: 130px;
+  }
 }
 .service-text {
   align-items: center;
-}
-.service-section {
-  margin-top: 84px;
 }
