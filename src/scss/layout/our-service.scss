@@ -27,6 +27,9 @@
     margin-bottom: 64px;
   }
   .service-image {
+    display: block;
+    width: 100%;
+    height: auto;
     margin-bottom: 30px;
     max-width: 418px;
     max-height: 346px;
@@ -50,7 +53,9 @@
     letter-spacing: 0.02em;
     color: #ff6c00;
   }
+
   .our-service {
+
     padding-top: 84px;
   }
 }
@@ -85,6 +90,9 @@
     margin-bottom: 64px;
   }
   .service-image {
+    display: block;
+    width: 100%;
+    height: auto;
     margin-bottom: 30px;
     max-width: 450px;
     max-height: 346px;
@@ -109,7 +117,8 @@
     color: #ff6c00;
     max-width: 418px;
   }
-  .our-service {
+  .our-services {
+
     padding-top: 100px;
   }
 }
@@ -141,6 +150,9 @@
     flex-basis: calc((100% - 60px) / 3);
   }
   .service-image {
+    display: block;
+    width: 100%;
+    height: auto;
     margin-bottom: 30px;
     max-width: 370px;
     max-height: 346px;
@@ -166,6 +178,7 @@
     max-width: 418px;
   }
   .our-service {
+
     padding-top: 130px;
   }
 }
