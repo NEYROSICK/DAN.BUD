@@ -6,7 +6,7 @@
       rgba(46, 47, 66, 0.4),
       rgba(46, 47, 66, 0.4)
     ),
-    url(../img/construction-business.jpg);
+    url(../img/construction-view.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -25,13 +25,9 @@
 
 @media (min-width: 1200px) {
   .hero-container {
-    padding-left: 216px;
+    // padding-left: 216px;
     padding-bottom: 208px;
   }
-}
-
-.hero-tagline {
-  color: var(--clr-primary-inverted);
 }
 
 .hero-title {
@@ -54,6 +50,7 @@
 @media (min-width: 1200px) {
   .hero-title {
     font-size: 72px;
+    text-align: center;
   }
 }
 
@@ -79,5 +76,7 @@
 @media (min-width: 1200px) {
   .hero-text {
     font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
   }
 }

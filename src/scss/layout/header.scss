@@ -29,6 +29,7 @@
 .header-nav {
   display: flex;
   flex-grow: 1;
+  justify-content: space-between;
 }
 
 @media (min-width: 768px) {
@@ -72,7 +73,6 @@
 @media (min-width: 768px) {
   .header-menu {
     display: flex;
-    flex-grow: 1;
     gap: 24px;
   }
 }
@@ -224,8 +224,8 @@
   position: absolute;
   top: 48px;
   right: 31px;
-  width: 25px;
-  height: 25px;
+  width: 20px;
+  height: 20px;
   background-color: transparent;
   padding: 0;
   border: none;
@@ -263,4 +263,38 @@
 .mobile-link:hover,
 .mobile-link:focus {
   color: var(--clr-brand);
+}
+
+.mobile-contact-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.mobile-contact-title {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.mobile-contact-title:before {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 1.4px;
+  background-color: var(--clr-primary-dark);
+}
+
+.mobile-contact {
+  margin-bottom: 52px;
+}
+
+.mobile-icon {
+  width: 24px;
+  height: 24px;
+  stroke: currentColor;
+  flex-shrink: 0;
 }
