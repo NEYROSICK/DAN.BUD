@@ -1,4 +1,4 @@
-.why-us{
+.why-us {
   padding-bottom: 165px;
 }
 
@@ -9,7 +9,7 @@
 .why-tagline::before {
   content: "";
   margin-left: 30px;
-  width: 1px;
+  width: 1.4px;
   height: 60px;
   background-color: var(--clr-brand);
   transform: rotate(90deg);
@@ -54,7 +54,7 @@
     font-size: 42px;
     line-height: 57px;
   }
-  
+
   .why-us-item-secondary-text {
     font-weight: 600;
     font-size: 11px;
@@ -67,10 +67,11 @@
 
   .why-plus {
     position: absolute;
-      top: -20px;
-      right: -20px;
+    top: -15px;
+    right: -15px;
     display: block;
-    font-size: 35px;
+    font-size: 25px;
+    font-weight: 700;
     color: var(--clr-brand);
   }
 }
