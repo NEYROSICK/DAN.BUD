@@ -54,10 +54,8 @@
   letter-spacing: 0.05em;
 }
 
-.header-logo {
-  width: 100%;
-  height: 100%;
-  fill: var(--clr-primary-inverted);
+.header-logo-dec {
+  color: var(--clr-brand);
 }
 
 @media (min-width: 768px) {
